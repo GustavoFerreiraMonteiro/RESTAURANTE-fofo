@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    /Pesquisar/
+    padding: 0;
+    /Pesquisar/
+    box-sizing: border-box;
+    /Pesquisar/
+}
+
+body{
+    background-color: #8C522D;
+    line-height: 1.6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #636B2F;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    margin-top: 50px;
+
+}
+
+nav a{
+    color: #D3B49F; /altera a cor da fonte/
+    margin: 0 50px; /adiciona margem 0 TOP/BOTTOM e 10px LEFT e RIGHT/
+    text-decoration: none; /remove a marcação de link/
+    font-weight: bold; /coloca expressura na fonte/
+}
+
+nav a:hover{
+    color: #fff; /**/
+    background-color: #421404;
+
+}
+
+
+.footer{
+    background-color: #502314;
+    color: #FDF5E6;
+    padding: 40px 20px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.footer_secao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1100px;
+    margin: auto;
+    gap: 20px;
+}
+
+.footer_div{
+    flex: 1 1 250px; 
+}
+
+.footer_div h4{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #FDF5E6;
+}
+
+.footer_div p{
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer_div ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer_div ul li{
+    margin-bottom: 8px;
+}
+
+.footer_div ul li a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease; /?/
+}
+
+.footer_div ul li a:hover{
+    color: #ff6600;
+}
+
+/estilização do parágrafo/
+.footer_paragrafo{
+    border-top: 1px solid #1337;
+    color: #aaa;
+    font-size: 13px;
+    margin-top: 25px;
+    padding-top: 15px;
+    text-align: center;
+
+ 
+}
