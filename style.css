@@ -9,13 +9,13 @@
 
 /*Corpo*/
 body {
-    background-color: #ce1414;
+    background-color: #1A0F0F;
     line-height: 1.6;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
-    background-color: #636B2F;
+    background-color: #742620;
     color: #fff;
     margin-bottom: 20px;
     padding: 15px;
@@ -69,6 +69,10 @@ section {
     border-bottom: 3px solid rgb(58, 40, 40);
 }
 
+.receba2 {
+background-color: #1A0F0F;
+}
+
 .arvore h3 {
     
     margin-top: 20px;
@@ -104,6 +108,7 @@ section {
     background-color: #1A0F0F;
     padding: 60px;
     font-size: 20px;
+    border-bottom: 3px solid rgb(58, 40, 40);
     
 }
 
@@ -135,6 +140,86 @@ section {
 
 .arvore2 a:hover{
     transform: scale(1.05);
+}
+
+.pratos{
+    margin-top: 70px;
+    background-color: #86522D;
+    padding: 8px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin-left: 470px;
+    transition: transform 0.3s;
+    
+}
+
+.pratos:hover{
+    transform: scale(1.05)
+}
+
+.texto1 h1{
+    background-color: #2d5128;
+    border-radius: 10px;
+    max-width: 600px;
+    margin-left: 420px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+
+}
+
+
+.texto1 img{
+    width: 800px;
+    margin-top: 30px;
+    padding: -1px;
+    border-radius: 16px;
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+    
+}
+
+.texto1 img:hover{
+    transform: scale(1.05)
+}
+
+.texto1{
+    border-bottom: 3px solid rgb(58, 40, 40);
+}
+
+.armario{
+    margin-top: 50px;
+    border-bottom: 3px solid rgb(58, 40, 40);
+}
+
+.armario img{
+    width: 800px;
+    margin-top: 30px;
+    padding: -1px;
+    border-radius: 16px;
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+}
+
+.armario img:hover{
+    transform: scale(1.05)
+}
+
+.armario2{
+    margin-top: 50px;
+}
+
+.armario2 img{
+    width: 800px;
+    margin-top: 20px;
+    padding: -1px;
+    border-radius: 16px;
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+}
+
+.armario2 img:hover{
+    transform: scale(1.05)
 }
 
 
