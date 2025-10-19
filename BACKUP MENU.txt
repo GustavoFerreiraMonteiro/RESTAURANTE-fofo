@@ -1,0 +1,747 @@
+HTML - <!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Sabor da Vila</h1>
+        <nav>
+            <ul>
+                <a href="/index.html">Home</a>
+                <a href="#">Reservas</a>
+                <a href="#">Contatos</a>
+            </ul>
+        </nav>
+    </header>
+
+
+
+  <main>
+  <section class="menu-section">
+  <h2>Entradas</h2>
+
+  <div class="item">
+    <img src="/IMAGENS/bomgourmet_2022_10_04141140_bigstock-Pastel-Brazilian-snack-Tradi-440756489.jpg" alt="Bruschetta">
+    <div class="info">
+      <span class="nome">Pastel da Vovó</span>
+      <span class="nome">arvore</span>
+      <span class="preco">R$ 28,00</span>
+    </div>
+  </div>
+
+  <div class="item">
+    <img src="/IMAGENS/gvzrdz.jpg" alt="Salada Caesar">
+    <div class="info">
+      <span class="nome">Bruschetta de Tomates Assados</span>
+      <span class="preco">R$ 32,00</span>
+    </div>
+  </div>
+
+  <div class="item">
+    <img src="/IMAGENS/dfb9j9.jpg" alt="Sopa de Abóbora">
+    <div class="info">
+      <span class="nome">Bolinho de Mandioca com Carne Seca</span>
+      <span class="preco">R$ 35,00</span>
+    </div>
+  </div>
+
+  <div class="item">
+    <img src="/IMAGENS/MALL_BLOG_Bruschetta-de-tomate_1280x960_06jun24.jpg" alt="Tartar de Salmão">
+    <div class="info">
+      <span class="nome">Provolone á Milanesa com Geleia de Pimenta</span>
+      <span class="preco">R$ 40,00</span>
+    </div>
+  </div>
+
+  <div class="item">
+    <img src="/IMAGENS/maxresdefault.jpg" alt="Carpaccio">
+    <div class="info">
+      <span class="nome">Dadinho de Tapioca com Queijo Coalho</span>
+      <span class="preco">R$ 38,00</span>
+    </div>
+  </div>
+
+  <div class="item">
+    <img src="/IMAGENS/nyriit (1).jpg" alt="Bolinho de Bacalhau">
+    <div class="info">
+      <span class="nome">Caldinho de Feijão com Bacon</span>
+      <span class="preco">R$ 25,00</span>
+    </div>
+  </div>
+
+  <section class="menu-section">
+  <h2>Pratos Principais</h2>
+
+  <div class="item">
+    <img src="imagens/filet.jpg" alt="Filé Mignon">
+    <div class="info">
+      <span class="nome">Costela de Panela com Purê de Mandioquinha</span>
+      <span class="preco">R$ 75,00</span>
+    </div>
+  </div>
+
+  <div class="item">
+    <img src="imagens/salmao-grelhado.jpg" alt="Salmão Grelhado">
+    <div class="info">
+      <span class="nome">Peixe Assado na Folha de Bananeira</span>
+      <span class="preco">R$ 72,00</span>
+    </div>
+  </div>
+
+  <div class="item">
+    <img src="imagens/risoto-cogumelos.jpg" alt="Risoto de Cogumelos">
+    <div class="info">
+      <span class="nome">Bife á Milanesa com Arroz e Batatas Rústicas</span>
+      <span class="preco">R$ 65,00</span>
+    </div>
+  </div>
+
+  <div class="item">
+    <img src="imagens/frango-parmegiana.jpg" alt="Frango à Parmegiana">
+    <div class="info">
+      <span class="nome">Virado á Paulista</span>
+      <span class="preco">R$ 69,00</span>
+    </div>
+  </div>
+
+  <div class="item">
+    <img src="imagens/lasanha.jpg" alt="Lasanha à Bolonhesa">
+    <div class="info">
+      <span class="nome">Parmegiana de Berinjela da Vovó</span>
+      <span class="preco">R$ 62,00</span>
+    </div>
+  </div>
+
+  <div class="item">
+    <img src="imagens/moqueca.jpg" alt="Moqueca de Peixe">
+    <div class="info">
+      <span class="nome">Escondidinho de Carne Seca</span>
+      <span class="preco">R$ 68,00</span>
+    </div>
+  </div>
+
+  <div class="item">
+    <img src="imagens/nhoque.jpg" alt="Nhoque ao Sugo">
+    <div class="info">
+      <span class="nome">Nhoque de Batata-Doce ao Molho de Sálvia e Manteiga</span>
+      <span class="preco">R$ 66,00</span>
+    </div>
+  </div>
+
+  <section id="sobremesas">
+  <h2>Sobremesas</h2>
+
+  <div class="sobremesa-item">
+    <h3>Bolo de Fubá com Goiabada</h3>
+    <p>O famoso bolo de fubá da vovó, macio e fofinho; servido com a irresistivel calda de goiabada derretida.</p>
+    <img src="/IMAGENS/747pfe.jpg" alt="">
+    <p class="preco">R$ 25</p>
+  </div>
+
+  <div class="sobremesa-item">
+    <h3>Pudim de Leite Condensado Caseiro</h3>
+    <p>Pudim de textura impecável e uma calda de caramelo dourado. Uma receuta simples, porém perfeita.</p>
+    <img src="/IMAGENS/MALL_BLOG_Bruschetta-de-tomate_1280x960_06jun24.jpg" alt="">
+    <p class="preco">R$ 26</p>
+  </div>
+
+  <div class="sobremesa-item">
+    <h3>Sorvete Artesanal</h3>
+    <p>Feito na casa, com sabores sazonais que lembram a infância.</p>
+    <img src="/IMAGENS/dfb9j9.jpg" alt="">
+    <p class="preco">R$ 26</p>
+  </div>
+
+  <div class="sobremesa-item">
+    <h3>Taça Gelada Duo</h3>
+    <p>Sorvete artesanal (2 sabores à sua escolha) com calda quente de chocolate, chantilly e farofa crocante.</p>
+    <img src="/IMAGENS/nyriit (1).jpg" alt="">
+    <p class="preco">R$ 24</p>
+  </div>
+
+  <div class="sobremesa-item">
+    <h3>Banoffee Clássica</h3>
+    <p>Torta de banana com doce de leite, chantilly e raspas de chocolate.</p>
+    <img src="/IMAGENS/Captura de tela 2025-10-08 153849.png" alt="">
+    <p class="preco">R$ 27</p>
+  </div>
+
+  <div class="sobremesa-item">
+    <h3>Cocada Cremosa com Sorvete</h3>
+    <p>Cocada quente feita na casa, servida com uma bola de sorvete de coco.</p>
+    <p class="preco">R$ 25</p>
+  </div>
+
+  <p class="sugestao-chef">Sugestão do Chef: Combine sua sobremesa com um café espresso ou licor digestivo para uma finalização perfeita.</p>
+</section>
+
+<section id="bebidas">
+  <h2>Bebidas</h2>
+  <p>Escolha entre nossas opções refrescantes e saborosas — com ou sem álcool.</p>
+
+  <!-- Sem Álcool -->
+  <div class="bebida‑categoria">
+    <h3>Sem Álcool</h3>
+    <div class="bebida-item">
+      <h4>Água Mineral (com ou sem gás)</h4>
+      <p>350 ml / 500 ml — Água gelada para acompanhar sua refeição.</p>
+      <p class="preco">R$ 9 / R$ 12</p>
+    </div>
+    <div class="bebida-item">
+      <h4>Refrigerante (lata)</h4>
+      <p>Escolha entre Coca‑Cola, Guaraná, Fanta ou Sprite.</p>
+      <p class="preco">R$ 10</p>
+    </div>
+    <div class="bebida-item">
+      <h4>Suco Natural</h4>
+      <p>Frutas frescas do dia — laranja / morango / abacaxi.</p>
+      <p class="preco">R$ 14</p>
+    </div>
+    <div class="bebida-item">
+      <h4>Chá Gelado Artesanal</h4>
+      <p>Chá mate ou limão‑hibisco, gelado e servido com gelo.</p>
+      <p class="preco">R$ 12</p>
+    </div>
+  </div>
+
+  <!-- Com Álcool -->
+  <div class="bebida‑categoria">
+    <h3>Com Álcool</h3>
+    <div class="bebida-item">
+      <h4>Caipirinha Tradicional</h4>
+      <p>Cachaça, limão‑tahiti, açúcar e gelo — o clássico brasileiro.</p>
+      <p class="preco">R$ 28</p>
+    </div>
+    <div class="bebida-item">
+      <h4>Gin Tônica</h4>
+      <p>Gin premium, tônica, rodelas de limão serrano.</p>
+      <p class="preco">R$ 32</p>
+    </div>
+    <div class="bebida-item">
+      <h4>Aperol Spritz</h4>
+      <p>Aperol, espumante, água com gás e fatia de laranja — leve e refrescante.</p>
+      <p class="preco">R$ 30</p>
+    </div>
+    <div class="bebida-item">
+      <h4>Cerveja Long Neck</h4>
+      <p>Escolha entre Heineken, Stella Artois ou IPA da estação.</p>
+      <p class="preco">R$ 18</p>
+    </div>
+  </div>
+
+  <p class="sugestao‑bebidas">*Todas as bebidas alcoólicas são vendidas somente para maiores de 18 anos, conforme legislação vigente.</p>
+</section>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <section class="footer_secao">
+
+            <div class="footer_div">
+                <h4>SOBRE NÓS</h4>
+                <p> O <strong>Sabor da Vila</strong> é um restaurante de culinária artesanal, focado em oferecer sempre
+                    ingredientes frescos e receitas totalmente tradicionais.</p>
+            </div>
+
+            <div class="footer_div">
+                <h4>Links Úteis</h4>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="conteudo.html">CONTATO</a></li>
+                    <li><a href="contato.html">GALERIA</a></li>
+
+                </ul>
+            </div>
+
+            <div class="footer_div">
+                <h4>Redes Sociais</h4>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">TikTok</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </div>
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+CSS -
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #140f0f;
+    line-height: 1.6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #742620;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    /*Configura o espaço vazio entre o conteúdo HTML e a borda*/
+    display: flex;
+    justify-content: space-around;
+    box-shadow:;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+nav {
+    margin-top: 50px;
+    /*adciciona margem na parte superior */
+
+}
+
+nav a {
+    color: #FDF5E6;
+    /*altera a cor da fonte*/
+    margin: 0 50px;
+    /*adiciona margem 0 TOP/BOTTOM e 10px LEFT e RIGHT*/
+    text-decoration: none;
+    /*remove a marcação de link*/
+    font-weight: bold;
+    /*coloca expressura na fonte*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover {
+    color: #fff;
+    /**/
+    background-color: #421404;
+
+
+}
+
+main {
+    text-align: center;
+    flex-wrap: wrap;
+    color: #fefffc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.arvore {
+    color: #FDF5E6;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.arvore2 h2 {
+    color: #FDF5E6;
+    text-align: center;
+    margin-top: 30px;
+    background-color: green;
+    max-width: 200px;
+    border-radius: 20px;
+    margin-left: 610px;
+    
+    
+}
+
+.arvore2 h3 {
+    background-color: #ff6600;
+    border-radius: 20px;
+    max-width: 400px;
+    margin-left: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.arvore2 p {
+    text-align: center;
+    color: #FDF5E6;
+    margin-top: 20px;
+}
+
+.arvore2 img {
+    border-radius: 8px;
+    margin-top: 40px;
+    max-width: 500px;
+    margin: 20px;
+    display: flex;
+    flexbox;
+    
+}
+
+.arvore3 {
+    display: flex;
+    color: #FDF5E6;
+}
+
+.arvore3 img {
+    border-radius: 8px;
+    margin-top: 40px;
+    max-width: 500px;
+    margin: 20px;
+    justify-content: left;
+}
+
+.armario2 img{
+    display: inline;
+    border-radius: 8px;
+    margin-top: 40px;
+    max-width: 400px;
+    margin: 20px;
+
+}
+
+.armario3 h3{
+    display: inline;
+    justify-content: space-around;
+   
+}
+
+
+.recebinha p{
+    display: inline;
+    justify-content: space-around;
+    margin: 200px;
+    background-color: #ff6600;
+    border-radius: 20px;
+    
+}
+
+.armario2 h2{
+    margin-top: 50px;
+    background-color: #8B5E34;
+    max-width: 500px;
+    margin-left: 450px;
+    border-radius: 20px;
+}
+
+
+:root {
+  --bg: #fff8f0;
+  --text: #333;
+  --section-title: #a0522d;
+  --primary: #d2691e;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1e1e1e;
+    --text: #eee;
+    --section-title: #f4a261;
+    --primary: #e76f51;
+  }
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.menu-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.menu-container h1 {
+  text-align: center;
+  color: var(--primary);
+  margin-bottom: 30px;
+}
+
+.menu-section {
+  margin-bottom: 40px;
+  
+}
+
+.menu-section img{
+    
+  transition: transform 0.3s;
+}
+
+.menu-section img:hover{
+    transform: scale(1.05)
+
+}
+
+.menu-section h2 {
+  border-bottom: 2px solid var(--primary);
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  color: var(--section-title);
+  font-size: 40px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 10px;
+  gap: 15px;
+}
+
+.item img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.nome {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.preco {
+  font-weight: bold;
+  color: var(--primary);
+  font-size: 30px;
+}
+
+
+
+/* ===== Estilos gerais da seção sobremesas ===== */
+#sobremesas {
+  font-family: 'Arial', sans-serif;
+  padding: 40px 20px;
+  background‑color: #faf9f7;
+  color: #ffffff;
+}
+
+#sobremesas h2 {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #f4a261; /* tom de marrom para “sobremesa” */
+}
+
+#sobremesas p {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* ===== Itens individuais ===== */
+.sobremesa-item {
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background‑color: #fff;
+  box‑shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.sobremesa-item h3 {
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+  color: #f4a261;
+}
+
+.sobremesa-item p {
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.sobremesa-item img{
+    max-width: 500px;
+    border-radius: 20px;
+}
+
+.sobremesa-item .preco {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #c17a3a;
+  text-align: right;
+  margin: 0;
+}
+
+/* ===== Sugestão do Chef ===== */
+.sugestao-chef {
+  text-align: center;
+  font-size: 1rem;
+  font-style: italic;
+  color: #555;
+  margin-top: 40px;
+}
+
+/* ===== Responsividade ===== */
+@media (max-width: 768px) {
+  #sobremesas {
+    padding: 30px 10px;
+  }
+  .sobremesa-item {
+    padding: 15px;
+  }
+  .sobremesa-item h3 {
+    font-size: 1.4rem;
+  }
+  .sobremesa-item .preco {
+    font-size: 1.1rem;
+  }
+}
+
+
+
+
+/* ===== Estilos para a seção “Bebidas” ===== */
+#bebidas {
+  font-family: 'Arial', sans‑serif;
+  padding: 40px 20px;
+  color: #333;
+}
+
+#bebidas h2 {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 10px;
+  /* cor mantida como já estava definida */
+}
+
+#bebidas p.intro {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Categoria de bebidas (Sem Álcool / Com Álcool) */
+.bebida-categoria h3 {
+  font-size: 1.4rem;
+  margin-top: 30px;
+  text-align: center;
+  /* cor mantida */
+}
+
+/* Cada item de bebida */
+.bebida-item {
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #742620;
+    color: #FDF5E6;
+    padding: 40px 20px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.footer_secao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1100px;
+    margin: auto;
+    gap: 20px;
+}
+
+.footer_div {
+    flex: 1 1 250px;
+}
+
+.footer_div h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #FDF5E6;
+}
+
+.footer_div p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer_div ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer_div ul li {
+    margin-bottom: 8px;
+}
+
+.footer_div ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    /*?*/
+}
+
+.footer_div ul li a:hover {
+    color: #ff6600;
+}
+
+.footer_paragrafo {
+    border-top: 1px solid #1337;
+    color: #aaa;
+    font-size: 13px;
+    margin-top: 25px;
+    padding-top: 15px;
+    text-align: center;
+
+
+}
