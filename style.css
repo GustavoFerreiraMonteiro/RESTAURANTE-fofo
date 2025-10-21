@@ -44,6 +44,7 @@ nav a {
     /*remove a marcação de link*/
     font-weight: bold;
     /*coloca expressura na fonte*/
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav a:hover {
@@ -220,6 +221,13 @@ background-color: #1A0F0F;
 
 .armario2 img:hover{
     transform: scale(1.05)
+}
+
+.pratos a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 

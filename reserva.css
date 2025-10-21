@@ -46,6 +46,7 @@ body {
     margin: 0 50px;
     text-decoration: none;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   nav a:hover{
